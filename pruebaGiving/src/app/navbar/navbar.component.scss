@@ -1,12 +1,28 @@
+*{
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Impact', 'design', impact;
+}
 .primary-nav {
-        -webkit-transition: all 0.4s ease;
-        transition: all 0.4s ease;
-      
-        background-color: white;
-        margin-bottom: 0;
-        padding: 25px;
-      }
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: white;
+  margin-bottom: 0;
+  padding: 25px;
+}
       
 .navbar-fixed-top {
-        padding: 0;
-      }
+  padding: 0;
+}
+
+.shrink {
+  padding-top: 0 ;
+  padding-bottom: 0;
+  min-height: 100px ;
+}
+.shrink a {
+  padding-top: 0 ;
+  padding-bottom: 0;       
+  }
